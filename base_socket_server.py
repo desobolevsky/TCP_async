@@ -14,7 +14,7 @@ while True:
         request = client_socket.recv(1024)
 
         if request:
-            message_in = request.decode()
+            message_in = request.decode('utf-8').rstrip()
             print(f'Message from {address}: {message_in}')
             message_out = 'I read you.\n'.encode()
             client_socket.send(message_out)
