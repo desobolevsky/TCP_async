@@ -35,6 +35,7 @@ def client(client_socket, address):
             break
 
     client_socket.close()
+    print(f'Connection finished: {address}')
 
 
 tasks.append(server())
