@@ -1,8 +1,7 @@
 # TCP async
 This is a simple implementation of asynchronous web server based on TCP socket programming.
 
-I've coded it mostly to figure out how asynchronicity works under the hood
-and to practice socket programming.  
+I've coded it mostly to figure out how asynchronicity works under the hood.
 ## Structure
 The web server is implemented in 4 ways (each file corresponds to its server type):
 
